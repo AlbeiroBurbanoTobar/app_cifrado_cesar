@@ -1,0 +1,73 @@
+
+.caesar-cipher {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .caesar-cipher h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .caesar-cipher label {
+    display: block;
+    margin-bottom: .5rem;
+    color: #555;
+  }
+  
+  .caesar-cipher input[type="text"],
+  .caesar-cipher input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .caesar-cipher button {
+    width: 100%;
+    padding: 0.7rem;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .caesar-cipher button:hover {
+    background-color: #00415a;
+  }
+  
+  .caesar-cipher p {
+    padding: 0.5rem;
+    background: #e9e9e9;
+    border-radius: 4px;
+    word-break: break-all;
+  }
+  
+  .app-footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px; /* O el espacio que necesita */
+    font-size: 0.8em; /* Ajusta esto según tus preferencias */
+    color: #000000;
+  }
+  
+  .app-footer a {
+    margin: 0 10px;
+    /*color: #ff4d4d; /* Cambia el color */
+    text-decoration: blink; /* O como prefieras */
+  }
+  
+  .app-footer a:hover {
+    text-decoration: underline; /* Efecto al pasar el mouse para indicar que es un enlace */
+  }
+  
